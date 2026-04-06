@@ -1,12 +1,93 @@
-# React + Vite
+#  Flight Search App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A responsive **Flight Search Dashboard** built using React that allows users to search flights by airport code, date, and type (departure/arrival). The app displays results in both table and card layouts with pagination support.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+##  Features
 
-## Expanding the ESLint configuration
+*  Search flights using:
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+  * Airport IATA Code (e.g., BOM)
+  * Date
+  * Type (Departure / Arrival)
+*  Responsive UI:
+
+  * Table view for desktop
+  * Card view for mobile
+*  Loading spinner while fetching data
+*  Error handling
+*  Pagination (Next / Prev)
+*  Modern UI with Tailwind CSS
+*  Flight status indicators (Scheduled / Delayed)
+
+---
+
+##  Tech Stack
+
+* React.js
+* Axios
+* Tailwind CSS
+
+---
+
+---
+
+## ⚙️ Installation & Setup
+
+### 1️⃣ Clone the repository
+
+```
+git clone github username
+```
+
+### 2️⃣ Navigate to project folder
+
+```
+cd flight-search-app
+```
+
+### 3️⃣ Install dependencies
+
+```
+npm install
+```
+
+### 4️⃣ Run the app
+
+```
+npm start
+```
+
+App will run on:
+
+```
+http://localhost:3000
+```
+
+---
+
+## API Used
+
+```
+https://agami-interview-backend.onrender.com/api/flights
+```
+
+### Query Params:
+
+* `airport` → IATA code (e.g., BOM)
+* `date` → Format: YYYY-MM-DD
+* `type` → departure / arrival
+
+---
+
+---
+
+---
+
+##  Author
+
+**Rajnish kumar tiwari**
+
+---
+
