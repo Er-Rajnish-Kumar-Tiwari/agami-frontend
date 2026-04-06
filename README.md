@@ -64,6 +64,11 @@ App will run on:
 ```
 http://localhost:3000
 ```
+ENV setup 
+
+```
+API-Key,AtlasURL,PORT
+```
 
 ---
 
