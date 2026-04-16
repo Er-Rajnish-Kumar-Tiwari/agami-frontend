@@ -1,98 +1,33 @@
-#  Flight Search App
+# 🎮 Stone Paper Scissors Game
 
-A responsive **Flight Search Dashboard** built using React that allows users to search flights by airport code, date, and type (departure/arrival). The app displays results in both table and card layouts with pagination support.
-
----
-
-##  Features
-
-*  Search flights using:
-
-  * Airport IATA Code (e.g., BOM)
-  * Date
-  * Type (Departure / Arrival)
-*  Responsive UI:
-
-  * Table view for desktop
-  * Card view for mobile
-*  Loading spinner while fetching data
-*  Error handling
-*  Pagination (Next / Prev)
-*  Modern UI with Tailwind CSS
-*  Flight status indicators (Scheduled / Delayed)
+A modern 2-player Stone Paper Scissors game built using **React + Tailwind CSS** with backend API support.
 
 ---
 
-##  Tech Stack
+## 🚀 Features
 
-* React.js
-* Axios
-* Tailwind CSS
-
----
-
----
-
-## ⚙️ Installation & Setup
-
-### 1️⃣ Clone the repository
-
-```
-git clone github username
-```
-
-### 2️⃣ Navigate to project folder
-
-```
-cd flight-search-app
-```
-
-### 3️⃣ Install dependencies
-
-```
-npm install
-```
-
-### 4️⃣ Run the app
-
-```
-npm start
-```
-
-App will run on:
-
-```
-http://localhost:3000
-```
-ENV setup 
-
-```
-API-Key,AtlasURL,PORT
-```
+- 🎯 2 Player Game
+- 🎮 6 Rounds Gameplay
+- 🏆 Winner Calculation
+- 💾 Save Game to Backend
+- 📜 Game History Page
+- 🔔 Toast Notifications
+- 💎 Modern UI (Glassmorphism + Responsive)
 
 ---
 
-## API Used
+## 🛠️ Tech Stack
 
-```
-https://agami-interview-backend.onrender.com/api/flights
-```
+### Frontend
+- React.js
+- Tailwind CSS
+- React Router DOM
+- React Icons
+- React Hot Toast
 
-### Query Params:
-
-* `airport` → IATA code (e.g., BOM)
-* `date` → Format: YYYY-MM-DD
-* `type` → departure / arrival
-
----
-
----
+### Backend
+- Node.js
+- Express.js
+- MongoDB
 
 ---
-
-##  Author
-
-**Rajnish kumar tiwari**
-
----
-
